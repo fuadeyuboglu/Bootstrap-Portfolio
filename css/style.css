@@ -42,6 +42,34 @@
     margin-block: 20px;
 }
 
-.skillsCard svg {
-    margin-bottom: 10px;
+.skillsCard {
+    height: 150px;
+}
+
+.skillsCard.html5 {
+    background: url("../images/html5.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skillsCard.css3 {
+    background: url("../images/css-3-svgrepo-com.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skillsCard.javaScript {
+    background: url("../images/js-svgrepo-com.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skillsCard.react {
+    background: url("../images/react.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
