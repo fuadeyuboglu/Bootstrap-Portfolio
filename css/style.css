@@ -22,6 +22,10 @@
     height: 60vh;
 }
 
+.heroImage  {
+    text-align: center;
+}
+
 .hero-content {
     width: 70%;
     margin-top: 25vh;
