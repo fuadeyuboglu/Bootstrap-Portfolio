@@ -1,8 +1,27 @@
+.sectionHeading {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 0px;
+    font-size: 5rem;
+}
+
+
+/* Hero Section */
 .hero {
     height: 100vh;
 }
 
 .hero-content {
     width: 70%;
-    margin-block: 25vh;
+    margin-top: 25vh;
+}
+
+/* Work Section */
+work {
+    padding: 50px;
+}
+
+.work .row {
+    justify-content: center;
+    margin-block: 20px;
 }
