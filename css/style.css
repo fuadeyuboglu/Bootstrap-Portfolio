@@ -8,6 +8,7 @@
 .skillHeading {
     font-weight: normal;
     font-size: 1.2rem;
+    margin: 0;
 }
 
 
@@ -38,7 +39,7 @@
 
 .work .row {
     justify-content: center;
-    margin-block: 100px;
+    margin-top: 100px;
 }
 
 /* Skills Content */
@@ -76,4 +77,33 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 792px) {
+    .hero .row {
+        text-align: center;
+    }
+
+    .heroText {
+        margin-bottom: 100px;
+    }
+
+    .hero-content {
+        width: 80%;
+        margin-top: 10vh;
+    }
+
+    .work {
+        margin-top: 200px;
+    }
+
+    .work .row {
+        text-align: center;
+    }
+
+    .workText {
+        margin-bottom: 20px;
+    }
 }
