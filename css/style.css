@@ -1,0 +1,8 @@
+.hero {
+    height: 100vh;
+}
+
+.hero-content {
+    width: 70%;
+    margin-block: 25vh;
+}
