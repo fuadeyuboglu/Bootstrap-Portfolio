@@ -12,6 +12,11 @@
 }
 
 
+a:hover {
+    color: white !important;
+    background-color: gray;
+}
+
 /* Navbar */
 .nav-link {
     color: white;
