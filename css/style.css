@@ -17,11 +17,20 @@
 }
 
 /* Work Section */
-work {
-    padding: 50px;
+.work {
+    padding: 10px;
 }
 
 .work .row {
     justify-content: center;
     margin-block: 100px;
+}
+
+/* Skills Content */
+.skillsCard {
+    margin-block: 20px;
+}
+
+.skillsCard svg {
+    margin-bottom: 10px;
 }
